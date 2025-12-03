@@ -1,0 +1,28 @@
+{
+  "name": "staging-deployer",
+  "version": "0.1.0",
+  "description": "A personal CLI to deploy projects to a staging server.",
+  "main": "index.js",
+  "private": true,
+  "bin": {
+    "dp-stag": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "node-ssh": "^13.1.0",
+    "@google/genai": "^1.30.0",
+    "inquirer": "^9.2.12",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1"
+  },
+  "keywords": [
+    "cli",
+    "deploy"
+  ],
+  "author": "",
+  "license": "ISC"
+}
