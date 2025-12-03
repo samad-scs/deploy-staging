@@ -11,12 +11,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@google/genai": "^1.30.0",
+    "chalk": "^4.1.2",
     "commander": "^11.1.0",
     "dotenv": "^16.3.1",
-    "node-ssh": "^13.1.0",
-    "@google/genai": "^1.30.0",
     "inquirer": "^9.2.12",
-    "chalk": "^4.1.2",
+    "node-ssh": "^13.1.0",
     "ora": "^5.4.1"
   },
   "keywords": [
